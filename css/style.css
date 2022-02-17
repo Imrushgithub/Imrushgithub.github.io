@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+html {
+  font-size: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+:root {
+  --mobile-margin-left: 3rem;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.h1 {
+  font-size: 4.8rem;
+}
+
+.h2 {
+  font-size: 3.5;
+}
+
+.nav-item__link,
+.oldal-logo {
+  text-decoration: none;
+  color: #666666;
+}
+
+.nav-item__link.active,
+.oldal-logo {
+  color: black;
+  font-weight: 700;
+}
+
+.oldal-logo {
+  font-size: 3rem;
+  margin-left: var(--mobile-margin-left);
+  margin-right: 2rem;
+}
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navigation__menu {
+  display: flex;
+  margin: right;
+}
+
+.nav-item {
+  margin: 30px;
+  font-size: 2rem;
+}
+
+.banner-container {
+  padding: 2rem 0 2rem 3rem;
+  background-color: lightgrey;
+}
+
+.banner-container__tittles {
+  margin: 1rem 0 2rem var(--mobile-margin-left);
+}
+
+.btn {
+  width: 15rem;
+  height: 4.5rem;
+  font-size: 1.5rem;
+  border: none;
+  margin: 1rem 1.5rem 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #242038;
+}
+
+.btn-primary {
+  background-color: #242038;
+  color: whitesmoke;
+  box-shadow: 0.5rem 0.5rem 0.5rem #706b75;
+}
+
+.btn-secondary {
+  background-color: #9f9da1;
+  color: #242038;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.about-container {
+  margin: var(--mobile-margin-left);
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow:  30px 30px 20px rgba(0, 0, 0, 0.5);
+  
+}
+
+.about-container p {
+  text-align: center;
+  margin: 1rem 10vw;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.8);
+  margin-top: 1.5rem;
+}
+
+.media-ikonok {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 2rem;
+}
+
+.media-ikon {
+  font-size: 3rem;
+  margin: 0 1.5rem;
+  padding-top: 3rem;
+  text-decoration: none;
+}
+
+.media-ikon__link {
+  color: #386FA4;
+}
